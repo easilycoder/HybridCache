@@ -30,7 +30,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    implementation project(':hybridcache-fresco')
+//    implementation project(':hybridcache-fresco')
+    implementation 'com.github.easilycoder.HybridCache:hybridcache-fresco:0.0.1'
     implementation 'com.facebook.fresco:fresco:1.5.0'
-    implementation project(':hybridcache')
+    implementation 'com.github.easilycoder.HybridCache:hybridcache:0.0.1'
+//    implementation project(':hybridcache')
 }

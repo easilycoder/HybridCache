@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/easilycoder/HybridCache.svg)](https://jitpack.io/#easilycoder/HybridCache)
+
 # FEATURE
 
 #### :heavy_check_mark: 拦截webview资源请求
@@ -8,11 +10,34 @@
 
 #### :heavy_check_mark: 简单让webview共享fresco的图片缓存
 
-# USAGE
+# DEPENDENCIES
 
+**HybridCache**已经发布到[Jitpack](https://jitpack.io/#easilycoder/HybridCache)上，你可以快速将引入EasyBridge库。
 
+1. 在根目录的build.gradle文件中添加jitpack仓库
 
+   ```Gradle
+   allprojects {
+       repositories {
+          ...
+          maven { url 'https://jitpack.io' }
+       }
+   }
+   ```
 
+2. 添加HybridCache依赖
+
+   ```gradle
+   dependencies {
+   	implementation 'com.github.easilycoder.HybridCache:hybridcache:0.0.1'
+   }
+   ```
+
+3. 如果你需要使用基于fresco的图片缓存共享，请添加下面的依赖
+
+   	dependencies {
+   		implementation 'com.github.easilycoder.HybridCache:hybridcache-fresco:0.0.1'
+   	}
 
 # HybridCache
 
