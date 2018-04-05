@@ -30,14 +30,16 @@
    ```gradle
    dependencies {
    	implementation 'com.github.easilycoder.HybridCache:hybridcache:0.0.1'
+   	implementation 'com.jakewharton:disklrucache:2.0.2'
    }
    ```
 
 3. 如果你需要使用基于fresco的图片缓存共享，请添加下面的依赖
-
-   	dependencies {
-   		implementation 'com.github.easilycoder.HybridCache:hybridcache-fresco:0.0.1'
-   	}
+    ```
+    dependencies {
+    	implementation 'com.github.easilycoder.HybridCache:hybridcache-fresco:0.0.1'
+    }
+    ```
 
 # HybridCache
 
