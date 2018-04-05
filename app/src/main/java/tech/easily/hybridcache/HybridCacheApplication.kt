@@ -4,7 +4,7 @@ import android.app.Application
 import com.facebook.drawee.backends.pipeline.Fresco
 
 /**
- * Created by hzyangjiehao on 2018/4/4.
+ * Created by lemon on 2018/4/4.
  */
 class HybridCacheApplication:Application() {
 
